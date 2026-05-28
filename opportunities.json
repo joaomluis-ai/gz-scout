@@ -1,5 +1,4 @@
 {
-  "lastRun": "2026-05-28",
   "verticalsScanned": [
     "Hotel Ops",
     "F&B",
@@ -2180,5 +2179,6 @@
       "assignee": "",
       "notes": ""
     }
-  ]
+  ],
+  "last_run": "2026-05-28"
 }
