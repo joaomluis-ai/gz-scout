@@ -667,98 +667,10 @@
   <div class="footer-brand">GZ Scout</div>
 </footer>
 
+
 <script>
-// ── DATA ─────────────────────────────────────────────────────────────────────
-// TO UPDATE: Edit the objects in this array, then redeploy to Netlify.
-// Each run of the Scout in Claude outputs a new version of this array.
-
-const LAST_RUN = "2026-05-07";
-const VERTICALS_SCANNED = ["Hotel Ops", "F&B", "Spa & Wellness"];
-
-const opportunities = [
-  {
-    id: 1,
-    rank: 1,
-    title: "TCM-Infused Functional Herbal Teas — Luxury F&B Minibar & In-Room Experience",
-    vertical: "F&B",
-    supplierRegion: "Guangdong & Yunnan Province",
-    margin: "high",
-    score: 9,
-    angle: "Premium 'food as medicine' herbal teas (reishi, astragalus, wolfberry, 24 solar term blends) are exploding in China's domestic wellness market. Brands like Tongrentang Café are repositioning ancient TCM formulas as luxury lifestyle beverages. Macau's VIP mainland guests already understand and seek this cultural product, yet not one resort minibar currently stocks a curated TCM tea programme.",
-    whyYou: "Greenzone Fitness & Wellness brand gives a credible wellness narrative. Approach resort F&B directors as a wellness curator, not just a supplier — positioning this as a 'signature in-room wellness ritual' programme exclusive to Macau.",
-    entry: "Source 3–5 artisan TCM tea brands from FHC China Guangzhou (May 10–12, Canton Fair Complex) or HOTELEX's Coffee & Tea zone. Commission a Macau-exclusive blend under private label. Pilot with 1 resort contact as a 'wellness minibar curated set' at MOP 280–380 retail.",
-    source: "FHC China Guangzhou (May, Canton Fair Complex) · HOTELEX Shanghai Coffee & Tea zone · 1688.com search: 养生茶 酒店",
-    status: "new",
-    assignee: "",
-    notes: ""
-  },
-  {
-    id: 2,
-    rank: 2,
-    title: "Copper-Ion & Silver-Ion Antimicrobial Linen Programme — Eco Hygiene Upgrade",
-    vertical: "Hotel Ops",
-    supplierRegion: "Guangzhou — Panyu District (ELIYA cluster)",
-    margin: "high",
-    score: 9,
-    angle: "Copper-infused and silver-ion treated bed and bath linens provide permanent antimicrobial protection woven into the fibre — not a surface coating — reducing bacterial load, extending linen lifecycle by ~30%, and cutting laundry chemical costs. Macau IRs face intense ESG reporting pressure from parent companies (Sands ECO360, Wynn sustainability KPIs) and this product hits hygiene, sustainability and cost-reduction simultaneously.",
-    whyYou: "15-year Macau network enables access to procurement and housekeeping ops conversations that cold suppliers can't access. Frame this as an ESG supply chain upgrade — perfect language for the concession renewal context operators are actively navigating right now.",
-    entry: "Sample from ELIYA (Guangzhou, Panyu) or Hotemax verified suppliers — MOQ as low as 100pcs. Run a 3-month pilot with one hotel's housekeeping GM contact. Present linen lifecycle cost savings data alongside hygiene cert (OEKO-TEX).",
-    source: "hotemax.com verified supplier list · ELIYA: eliyalinen.com (Guangzhou) · Canton Fair Phase 2 textile section",
-    status: "new",
-    assignee: "",
-    notes: ""
-  },
-  {
-    id: 3,
-    rank: 3,
-    title: "Luxury Adaptogen Wellness Drinks — Zero-Alcohol VIP Lounge & Spa Menu",
-    vertical: "Spa & Wellness",
-    supplierRegion: "Shenzhen / Guangdong biotech cluster + Yunnan",
-    margin: "high",
-    score: 8,
-    angle: "Non-alcoholic adaptogen beverages (reishi, schisandra, rhodiola — Asian TCM-rooted formulations) are the fastest-growing wellness drink category globally. Macau casino VIP guests are shifting toward 'sober curious' consumption patterns, but every resort lounge defaults to alcohol or standard soft drinks. A curated adaptogen beverage programme for VIP lounges and spa relaxation rooms is a clear white space.",
-    whyYou: "Greenzone Fitness positions naturally in the wellness and performance nutrition space. Ties directly into the GEG MICE wellness work already developed, creating a coherent wellness F&B story across corporate and leisure segments.",
-    entry: "Source via Cosmoprof Asia (HK, November) or approach Shenzhen biotech beverage startups directly on 1688. Create a 'Macau Wellness Lounge' concept deck using existing hospitality contacts — 3 SKU minimum to test (reishi, ginseng, schisandra).",
-    source: "Cosmoprof Asia HK November · China Skinny TCM wellness trend reports · 1688.com search: 适配饮料 养生",
-    status: "new",
-    assignee: "",
-    notes: ""
-  },
-  {
-    id: 4,
-    rank: 4,
-    title: "Microbiome & Exosome Spa Treatment Consumables — Next-Gen Facial Programme",
-    vertical: "Spa & Wellness",
-    supplierRegion: "South Korea / Guangdong OEM contract manufacturing",
-    margin: "high",
-    score: 8,
-    angle: "Cosmoprof Asia 2025 flagged microbiome-focused skincare and exosome-based treatments as the dominant innovation wave — with PDRN, Centella extracts and hydrogel patch formats. These are becoming standard in Korean spas but have barely reached Macau luxury hotel spa menus. China-based contract manufacturers can produce at 40–60% below Korean brand pricing, with full OEM available.",
-    whyYou: "Creative production background enables developing brand narrative, visual identity and treatment collateral — not just the product. Spa directors buy the story and training programme, not just the SKU. This is a creative-led supply play.",
-    entry: "Attend Cosmopack Asia (Nov, AsiaWorld-Expo HK) — the supply chain show where ingredients and contract manufacturers exhibit. Identify 2 OEM factories. Develop a branded spa treatment line exclusive to Macau with proprietary name and GZ-designed collateral.",
-    source: "Cosmoprof Asia / Cosmopack Asia November · BW Confidential innovation reports · 1688 search: 益生菌 spa 酒店",
-    status: "new",
-    assignee: "",
-    notes: ""
-  },
-  {
-    id: 5,
-    rank: 5,
-    title: "Sustainable Biodegradable Amenity Sets — ESG Compliance for Macau IRs",
-    vertical: "Hotel Ops",
-    supplierRegion: "Guangdong — Dongguan / Foshan",
-    margin: "medium",
-    score: 8,
-    angle: "Macau IRs are under increasing ESG reporting pressure — all six concessionaires publish annual sustainability reports, and the concession renewal environment makes green procurement a competitive differentiator. China's Foshan/Dongguan cluster produces bamboo-composite, seaweed-based and 100% recycled paper amenity packaging at premium-feel quality — at 20–30% lower cost than European eco-alternatives currently imported.",
-    whyYou: "Understanding of both the marketing language (sustainability positioning) and operational language (cost per room) is key. Approaching Sands ECO360 or Wynn sustainability team with a ready-made certified eco-amenity programme removes their supplier search cost entirely.",
-    entry: "Source from DERBAL or equivalent OEM supplier via Hotemax network (full custom formulation, eco-packaging, OEKO-TEX). Request samples of bamboo amenity set + refillable room-format options. Create a 1-pager for the sustainability VP at strongest contact IR.",
-    source: "Hotemax.com OEM supplier list · Sands ECO360 public sustainability targets · Canton Fair Phase 2 household/amenities section",
-    status: "new",
-    assignee: "",
-    notes: ""
-  }
-];
-
 // ── STATE ─────────────────────────────────────────────────────────────────────
+let opportunities = [];
 let savedState = {};
 
 try {
@@ -770,18 +682,50 @@ function saveState() {
   try { localStorage.setItem('gz-scout-state', JSON.stringify(savedState)); } catch(e) {}
 }
 
-// ── INIT ──────────────────────────────────────────────────────────────────────
-document.getElementById('last-updated').textContent = 'Last run: ' + LAST_RUN;
+// ── FETCH DATA ────────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const resp = await fetch('opportunities.json?nocache=' + Date.now());
+    const data = await resp.json();
 
+    opportunities = data.opportunities || [];
+
+    const lastRun = data.last_run || data.lastRun || '—';
+    document.getElementById('last-updated').textContent = 'Last run: ' + lastRun;
+
+    updateStats();
+    renderCards();
+    filterCards('all', document.querySelector('.filter-btn.active'));
+  } catch(e) {
+    document.getElementById('last-updated').textContent = 'Error loading data';
+    console.error('Failed to load opportunities.json:', e);
+  }
+}
+
+// ── STATS ─────────────────────────────────────────────────────────────────────
+function updateStats() {
+  const total = opportunities.length;
+  const high = opportunities.filter(o => o.margin === 'high').length;
+  const avgScore = total ? (opportunities.reduce((s,o) => s + (o.score||0), 0) / total).toFixed(1) : '—';
+  const verticals = [...new Set(opportunities.map(o => o.vertical))].length;
+
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-high').textContent = high;
+  document.getElementById('stat-score').textContent = avgScore;
+  document.getElementById('stat-verticals').textContent = verticals;
+  updateActiveCount();
+}
+
+// ── RENDER CARDS ──────────────────────────────────────────────────────────────
 function renderCards() {
   const container = document.getElementById('cards-container');
   container.innerHTML = '';
 
   opportunities.forEach(op => {
     const state = savedState[op.id] || {};
-    const status = state.status || op.status;
-    const assignee = state.assignee || op.assignee;
-    const notes = state.notes || op.notes;
+    const status = state.status || op.status || 'new';
+    const assignee = state.assignee || op.assignee || '';
+    const notes = state.notes || op.notes || '';
 
     const card = document.createElement('div');
     card.className = 'card';
@@ -844,7 +788,7 @@ function renderCards() {
         <div class="card-footer">
           <div class="assignee-block">
             <div class="assignee-label">Owner</div>
-            <input class="assignee-input" type="text" placeholder="Assign to..." 
+            <input class="assignee-input" type="text" placeholder="Assign to..."
               value="${assignee}" id="assignee-${op.id}"
               onchange="markDirty(${op.id})" onclick="event.stopPropagation()">
           </div>
@@ -855,7 +799,6 @@ function renderCards() {
         </div>
       </div>
     `;
-
     container.appendChild(card);
   });
 
@@ -897,7 +840,7 @@ function saveCard(id) {
 function updateActiveCount() {
   let active = 0;
   opportunities.forEach(op => {
-    const s = (savedState[op.id] || {}).status || op.status;
+    const s = (savedState[op.id] || {}).status || op.status || 'new';
     if (['contacted','sampling','active'].includes(s)) active++;
   });
   document.getElementById('stat-active').textContent = active;
@@ -909,7 +852,7 @@ let currentFilter = 'all';
 function filterCards(filter, btn) {
   currentFilter = filter;
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  if (btn) btn.classList.add('active');
 
   const cards = document.querySelectorAll('.card');
   let visible = 0;
@@ -929,7 +872,7 @@ function filterCards(filter, btn) {
 }
 
 // ── BOOT ─────────────────────────────────────────────────────────────────────
-renderCards();
+loadData();
 </script>
 </body>
 </html>
