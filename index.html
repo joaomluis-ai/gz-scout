@@ -60,493 +60,249 @@
     height: 56px;
   }
 
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
+  .logo { display: flex; align-items: center; gap: 12px; }
 
   .logo-mark {
     width: 28px; height: 28px;
     border: 1.5px solid var(--accent);
     border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--accent);
-    letter-spacing: -0.5px;
+    font-size: 14px; font-weight: 700;
+    color: var(--accent); letter-spacing: -0.5px;
   }
 
   .logo-text {
     font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    color: var(--muted);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+    font-size: 11px; color: var(--muted);
+    letter-spacing: 0.1em; text-transform: uppercase;
   }
 
-  .topbar-right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-
-  .last-updated {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    color: var(--muted);
-  }
+  .topbar-right { display: flex; align-items: center; gap: 16px; }
+  .last-updated { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); }
 
   .pulse-dot {
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    background: var(--accent2);
-    animation: pulse 2.5s infinite;
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--accent2); animation: pulse 2.5s infinite;
   }
-
   @keyframes pulse {
     0%, 100% { opacity: 1; transform: scale(1); }
     50% { opacity: 0.4; transform: scale(0.8); }
   }
 
-  /* ── HERO HEADER ── */
-  .hero {
-    padding: 56px 32px 40px;
-    position: relative;
-    overflow: hidden;
-  }
-
+  /* ── HERO ── */
+  .hero { padding: 56px 32px 40px; position: relative; overflow: hidden; }
   .hero::after {
     content: 'SCOUT';
-    position: absolute;
-    right: -20px;
-    top: 50%;
-    transform: translateY(-50%);
+    position: absolute; right: -20px; top: 50%; transform: translateY(-50%);
     font-family: 'Cormorant Garamond', serif;
-    font-size: 160px;
-    font-weight: 700;
+    font-size: 160px; font-weight: 700;
     color: rgba(255,255,255,0.02);
-    pointer-events: none;
-    line-height: 1;
-    letter-spacing: -8px;
+    pointer-events: none; line-height: 1; letter-spacing: -8px;
   }
-
   .hero-eyebrow {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    color: var(--accent);
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin-bottom: 12px;
+    font-family: 'DM Mono', monospace; font-size: 10px;
+    color: var(--accent); letter-spacing: 0.15em;
+    text-transform: uppercase; margin-bottom: 12px;
   }
-
   .hero-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: -1px;
-    margin-bottom: 12px;
-    max-width: 600px;
+    font-size: 48px; font-weight: 700; line-height: 1.1;
+    letter-spacing: -1px; margin-bottom: 12px; max-width: 600px;
   }
-
   .hero-title span { color: var(--accent); }
+  .hero-sub { font-size: 14px; color: var(--muted); max-width: 480px; line-height: 1.7; }
 
-  .hero-sub {
-    font-size: 14px;
-    color: var(--muted);
-    max-width: 480px;
-    line-height: 1.7;
-  }
-
-  /* ── STATS STRIP ── */
+  /* ── STATS ── */
   .stats {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1px;
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px;
     background: var(--border);
     border-top: 0.5px solid var(--border);
     border-bottom: 0.5px solid var(--border);
     margin-bottom: 40px;
   }
-
-  .stat-cell {
-    background: var(--bg);
-    padding: 20px 24px;
-    position: relative;
-  }
-
+  .stat-cell { background: var(--bg); padding: 20px 24px; position: relative; }
   .stat-num {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--text);
-    line-height: 1;
-    margin-bottom: 4px;
+    font-size: 32px; font-weight: 700; color: var(--text);
+    line-height: 1; margin-bottom: 4px;
   }
-
   .stat-num.gold { color: var(--accent); }
   .stat-num.green { color: var(--accent2); }
-
   .stat-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 9px;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    font-family: 'DM Mono', monospace; font-size: 9px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.08em;
   }
 
   /* ── FILTERS ── */
-  .filters {
-    padding: 0 32px 24px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
+  .filters { padding: 0 32px 24px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
   .filter-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    color: var(--muted);
-    margin-right: 4px;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
+    font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted);
+    margin-right: 4px; text-transform: uppercase; letter-spacing: 0.06em;
   }
-
   .filter-btn {
-    padding: 5px 14px;
-    border-radius: 20px;
-    border: 0.5px solid var(--border2);
-    background: transparent;
-    color: var(--muted);
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all 0.15s;
+    padding: 5px 14px; border-radius: 20px;
+    border: 0.5px solid var(--border2); background: transparent; color: var(--muted);
+    font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.04em;
+    text-transform: uppercase; cursor: pointer; transition: all 0.15s;
   }
-
   .filter-btn:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
   .filter-btn.active { background: var(--accent); color: #0a0c0e; border-color: var(--accent); font-weight: 500; }
 
-  /* ── MAIN GRID ── */
+  /* ── MAIN ── */
   .main { padding: 0 32px 80px; }
-
-  .section-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-
+  .section-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
   .section-title {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+    font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.1em;
   }
+  .count-badge { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); }
 
-  .count-badge {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    color: var(--muted);
+  /* ── DATE GROUP ── */
+  .date-group { margin-bottom: 40px; }
+  .group-header {
+    display: flex; align-items: center; gap: 14px;
+    margin: 0 0 16px; padding-bottom: 10px;
+    border-bottom: 0.5px solid var(--border);
   }
+  .group-date {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px; font-weight: 700; color: var(--text); letter-spacing: -0.3px;
+  }
+  .group-badge {
+    font-family: 'DM Mono', monospace; font-size: 9px;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    padding: 3px 10px; border-radius: 20px; border: 0.5px solid;
+  }
+  .group-badge.latest { color: var(--accent); border-color: rgba(200,169,110,0.4); background: rgba(200,169,110,0.08); }
+  .group-badge.previous { color: var(--accent3); border-color: rgba(110,158,200,0.3); background: rgba(110,158,200,0.06); }
+  .group-count { margin-left: auto; font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); }
 
-  /* ── OPPORTUNITY CARD ── */
+  /* ── CARD ── */
   .card {
     background: var(--surface);
     border: 0.5px solid var(--border);
     border-radius: var(--radius);
-    margin-bottom: 12px;
-    overflow: hidden;
+    margin-bottom: 12px; overflow: hidden;
     transition: border-color 0.2s, transform 0.15s;
     animation: fadeUp 0.4s ease both;
   }
-
   .card:hover { border-color: var(--border2); }
   .card.hidden { display: none; }
-
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(12px); }
     to { opacity: 1; transform: translateY(0); }
   }
 
-  .card:nth-child(1) { animation-delay: 0.05s; }
-  .card:nth-child(2) { animation-delay: 0.10s; }
-  .card:nth-child(3) { animation-delay: 0.15s; }
-  .card:nth-child(4) { animation-delay: 0.20s; }
-  .card:nth-child(5) { animation-delay: 0.25s; }
-
-  .card-top {
-    display: flex;
-    align-items: stretch;
-    min-height: 90px;
-    cursor: pointer;
-  }
-
+  .card-top { display: flex; align-items: stretch; min-height: 90px; cursor: pointer; }
   .card-rank {
-    width: 56px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 56px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 28px;
-    font-weight: 700;
-    color: rgba(255,255,255,0.1);
-    border-right: 0.5px solid var(--border);
-    transition: color 0.2s;
+    font-size: 28px; font-weight: 700; color: rgba(255,255,255,0.1);
+    border-right: 0.5px solid var(--border); transition: color 0.2s;
   }
-
   .card:hover .card-rank { color: rgba(200,169,110,0.3); }
   .card-rank.top1 { color: var(--accent) !important; }
 
   .card-main {
-    flex: 1;
-    padding: 16px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
+    flex: 1; padding: 16px 20px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
   }
-
   .card-title-block { flex: 1; }
-
-  .card-title {
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--text);
-    line-height: 1.4;
-    margin-bottom: 8px;
-  }
-
-  .card-tags {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+  .card-title { font-size: 14px; font-weight: 500; color: var(--text); line-height: 1.4; margin-bottom: 8px; }
+  .card-tags { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 
   .tag {
-    font-family: 'DM Mono', monospace;
-    font-size: 9px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    padding: 3px 9px;
-    border-radius: 20px;
-    border: 0.5px solid;
+    font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.05em;
+    text-transform: uppercase; padding: 3px 9px; border-radius: 20px; border: 0.5px solid;
   }
-
   .tag-vertical { background: rgba(143,184,154,0.1); color: var(--accent2); border-color: rgba(143,184,154,0.25); }
   .tag-margin-high { background: rgba(200,169,110,0.1); color: var(--accent); border-color: rgba(200,169,110,0.25); }
   .tag-margin-med { background: rgba(255,255,255,0.04); color: var(--muted); border-color: var(--border2); }
   .tag-source { background: rgba(110,158,200,0.08); color: var(--accent3); border-color: rgba(110,158,200,0.2); }
 
-  .card-right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex-shrink: 0;
-  }
-
+  .card-right { display: flex; align-items: center; gap: 16px; flex-shrink: 0; }
   .score-ring {
-    width: 44px; height: 44px;
-    border-radius: 50%;
+    width: 44px; height: 44px; border-radius: 50%;
     border: 1.5px solid var(--border2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center; flex-direction: column; flex-shrink: 0;
   }
-
   .score-ring.high { border-color: rgba(200,169,110,0.5); }
-
-  .score-num {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--accent);
-    line-height: 1;
-  }
-
-  .score-denom {
-    font-family: 'DM Mono', monospace;
-    font-size: 8px;
-    color: var(--muted);
-  }
+  .score-num { font-family: 'Cormorant Garamond', serif; font-size: 16px; font-weight: 700; color: var(--accent); line-height: 1; }
+  .score-denom { font-family: 'DM Mono', monospace; font-size: 8px; color: var(--muted); }
 
   .status-select {
-    background: var(--surface2);
-    border: 0.5px solid var(--border2);
-    border-radius: var(--radius-sm);
-    color: var(--text);
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    padding: 5px 10px;
-    cursor: pointer;
-    outline: none;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    min-width: 120px;
+    background: var(--surface2); border: 0.5px solid var(--border2);
+    border-radius: var(--radius-sm); color: var(--text);
+    font-family: 'DM Mono', monospace; font-size: 10px; padding: 5px 10px;
+    cursor: pointer; outline: none; text-transform: uppercase; letter-spacing: 0.04em; min-width: 120px;
   }
-
   .status-select option { background: #111416; }
 
   .expand-btn {
-    width: 28px; height: 28px;
-    border-radius: 50%;
-    border: 0.5px solid var(--border);
-    background: transparent;
-    color: var(--muted);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.15s;
-    flex-shrink: 0;
-    font-size: 12px;
+    width: 28px; height: 28px; border-radius: 50%;
+    border: 0.5px solid var(--border); background: transparent; color: var(--muted);
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; transition: all 0.15s; flex-shrink: 0; font-size: 12px;
   }
-
   .expand-btn:hover { border-color: var(--border2); color: var(--text); }
   .expand-btn.open { transform: rotate(180deg); }
 
   /* ── CARD BODY ── */
-  .card-body {
-    display: none;
-    border-top: 0.5px solid var(--border);
-  }
-
+  .card-body { display: none; border-top: 0.5px solid var(--border); }
   .card-body.open { display: block; }
-
-  .card-body-inner {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 0;
-  }
-
-  .body-col {
-    padding: 20px 24px;
-    border-right: 0.5px solid var(--border);
-  }
-
+  .card-body-inner { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; }
+  .body-col { padding: 20px 24px; border-right: 0.5px solid var(--border); }
   .body-col:last-child { border-right: none; }
-
   .body-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 9px;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 10px;
+    font-family: 'DM Mono', monospace; font-size: 9px; color: var(--accent);
+    text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px;
   }
-
-  .body-text {
-    font-size: 13px;
-    color: rgba(240,237,232,0.75);
-    line-height: 1.7;
-  }
+  .body-text { font-size: 13px; color: rgba(240,237,232,0.75); line-height: 1.7; }
+  .body-text a { color: var(--accent3); text-decoration: none; border-bottom: 0.5px solid rgba(110,158,200,0.3); }
+  .body-text a:hover { border-bottom-color: var(--accent3); }
 
   /* ── CARD FOOTER ── */
   .card-footer {
-    border-top: 0.5px solid var(--border);
-    padding: 14px 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
+    border-top: 0.5px solid var(--border); padding: 14px 24px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
     background: rgba(255,255,255,0.015);
   }
-
-  .assignee-block {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
+  .assignee-block { display: flex; align-items: center; gap: 10px; }
   .assignee-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 9px;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
+    font-family: 'DM Mono', monospace; font-size: 9px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.06em;
   }
-
   .assignee-input {
-    background: transparent;
-    border: none;
-    border-bottom: 0.5px solid var(--border2);
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 12px;
-    padding: 2px 0;
-    outline: none;
-    width: 140px;
+    background: transparent; border: none; border-bottom: 0.5px solid var(--border2);
+    color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 12px;
+    padding: 2px 0; outline: none; width: 140px;
   }
-
   .assignee-input::placeholder { color: var(--muted); }
   .assignee-input:focus { border-bottom-color: var(--accent); }
-
   .notes-input {
-    flex: 1;
-    background: transparent;
-    border: none;
-    border-bottom: 0.5px solid var(--border2);
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 12px;
-    padding: 2px 0;
-    outline: none;
+    flex: 1; background: transparent; border: none; border-bottom: 0.5px solid var(--border2);
+    color: var(--text); font-family: 'DM Sans', sans-serif; font-size: 12px; padding: 2px 0; outline: none;
   }
-
   .notes-input::placeholder { color: var(--muted); }
   .notes-input:focus { border-bottom-color: var(--accent); }
-
   .save-btn {
-    background: transparent;
-    border: 0.5px solid var(--border2);
-    border-radius: var(--radius-sm);
-    color: var(--muted);
-    font-family: 'DM Mono', monospace;
-    font-size: 9px;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    padding: 5px 12px;
-    cursor: pointer;
-    transition: all 0.15s;
-    white-space: nowrap;
+    background: transparent; border: 0.5px solid var(--border2); border-radius: var(--radius-sm);
+    color: var(--muted); font-family: 'DM Mono', monospace; font-size: 9px;
+    text-transform: uppercase; letter-spacing: 0.06em; padding: 5px 12px;
+    cursor: pointer; transition: all 0.15s; white-space: nowrap;
   }
-
   .save-btn:hover { color: var(--accent); border-color: var(--accent); }
   .save-btn.saved { color: var(--accent2); border-color: var(--accent2); }
 
   /* ── FOOTER ── */
   .page-footer {
-    border-top: 0.5px solid var(--border);
-    padding: 24px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    border-top: 0.5px solid var(--border); padding: 24px 32px;
+    display: flex; align-items: center; justify-content: space-between;
   }
-
-  .footer-text {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    color: var(--muted);
-  }
-
-  .footer-brand {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 14px;
-    color: var(--muted);
-    letter-spacing: 0.05em;
-  }
+  .footer-text { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); }
+  .footer-brand { font-family: 'Cormorant Garamond', serif; font-size: 14px; color: var(--muted); letter-spacing: 0.05em; }
 
   /* ── STATUS COLORS ── */
   .status-select[data-status="new"] { color: var(--muted); }
@@ -556,22 +312,8 @@
   .status-select[data-status="active"] { color: var(--accent2); }
   .status-select[data-status="paused"] { color: var(--danger); }
 
-  /* ── TOP PICK GLOW ── */
-  .card[data-rank="1"] {
-    border-color: rgba(200,169,110,0.2);
-  }
-
-  .card[data-rank="1"]:hover {
-    border-color: rgba(200,169,110,0.4);
-  }
-
-  /* ── EMPTY STATE ── */
-  .empty {
-    text-align: center;
-    padding: 60px 32px;
-    display: none;
-  }
-
+  /* ── EMPTY / LOADING ── */
+  .empty { text-align: center; padding: 60px 32px; display: none; }
   .empty.visible { display: block; }
   .empty-title { font-family: 'Cormorant Garamond', serif; font-size: 24px; color: var(--muted); margin-bottom: 8px; }
   .empty-sub { font-family: 'DM Mono', monospace; font-size: 11px; color: rgba(122,122,122,0.5); }
@@ -589,6 +331,7 @@
     .topbar { padding: 0 20px; }
     .card-right { gap: 10px; }
     .status-select { min-width: 100px; }
+    .group-date { font-size: 19px; }
   }
 </style>
 </head>
@@ -615,26 +358,11 @@
 
 <!-- STATS -->
 <div class="stats" role="region" aria-label="Summary statistics">
-  <div class="stat-cell">
-    <div class="stat-num gold" id="stat-total">5</div>
-    <div class="stat-label">Opportunities</div>
-  </div>
-  <div class="stat-cell">
-    <div class="stat-num green" id="stat-high">3</div>
-    <div class="stat-label">High Margin</div>
-  </div>
-  <div class="stat-cell">
-    <div class="stat-num" id="stat-score">8.4</div>
-    <div class="stat-label">Avg Score</div>
-  </div>
-  <div class="stat-cell">
-    <div class="stat-num" id="stat-verticals">3</div>
-    <div class="stat-label">Verticals</div>
-  </div>
-  <div class="stat-cell">
-    <div class="stat-num" id="stat-active">0</div>
-    <div class="stat-label">Active Leads</div>
-  </div>
+  <div class="stat-cell"><div class="stat-num gold" id="stat-total">—</div><div class="stat-label">Opportunities</div></div>
+  <div class="stat-cell"><div class="stat-num green" id="stat-high">—</div><div class="stat-label">High Margin</div></div>
+  <div class="stat-cell"><div class="stat-num" id="stat-score">—</div><div class="stat-label">Avg Score</div></div>
+  <div class="stat-cell"><div class="stat-num" id="stat-verticals">—</div><div class="stat-label">Verticals</div></div>
+  <div class="stat-cell"><div class="stat-num" id="stat-active">0</div><div class="stat-label">Active Leads</div></div>
 </div>
 
 <!-- FILTERS -->
@@ -650,8 +378,8 @@
 <!-- MAIN -->
 <main class="main" role="main">
   <div class="section-head">
-    <div class="section-title">Ranked Opportunities</div>
-    <div class="count-badge" id="count-badge">Showing 5 of 5</div>
+    <div class="section-title">Ranked Opportunities · Grouped by Run</div>
+    <div class="count-badge" id="count-badge">Loading…</div>
   </div>
 
   <div id="cards-container"></div>
@@ -663,153 +391,208 @@
 
 <!-- FOOTER -->
 <footer class="page-footer">
-  <div class="footer-text">Greenzone Fitness · Internal Use Only · v1.0</div>
+  <div class="footer-text">Greenzone Fitness · Internal Use Only · v2.0</div>
   <div class="footer-brand">GZ Scout</div>
 </footer>
 
-
 <script>
-// ── STATE ─────────────────────────────────────────────────────────────────────
+// ── CONFIG ───────────────────────────────────────────────────────────────────
+const DATA_URL = 'opportunities.json';
+
+// ── STATE ────────────────────────────────────────────────────────────────────
 let opportunities = [];
+let currentFilter = 'all';
 let savedState = {};
+try { const raw = localStorage.getItem('gz-scout-state'); if (raw) savedState = JSON.parse(raw); } catch(e) {}
+function saveState() { try { localStorage.setItem('gz-scout-state', JSON.stringify(savedState)); } catch(e) {} }
 
-try {
-  const raw = localStorage.getItem('gz-scout-state');
-  if (raw) savedState = JSON.parse(raw);
-} catch(e) {}
+// ── HELPERS ──────────────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+function escAttr(s) { return esc(s).replace(/"/g, '&quot;'); }
 
-function saveState() {
-  try { localStorage.setItem('gz-scout-state', JSON.stringify(savedState)); } catch(e) {}
+function formatDate(iso) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso || 'Undated';
+  const [y, m, d] = iso.split('-').map(Number);
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const wd = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  return `${wd[dt.getUTCDay()]} · ${d} ${months[m - 1]} ${y}`;
 }
 
-// ── FETCH DATA ────────────────────────────────────────────────────────────────
-async function loadData() {
-  try {
-    const resp = await fetch('opportunities.json?nocache=' + Date.now());
-    const data = await resp.json();
-
-    opportunities = data.opportunities || [];
-
-    const lastRun = data.last_run || data.lastRun || '—';
-    document.getElementById('last-updated').textContent = 'Last run: ' + lastRun;
-
-    updateStats();
-    renderCards();
-    filterCards('all', document.querySelector('.filter-btn.active'));
-  } catch(e) {
-    document.getElementById('last-updated').textContent = 'Error loading data';
-    console.error('Failed to load opportunities.json:', e);
+function renderSources(op) {
+  const src = op.sources != null ? op.sources : op.source;
+  if (Array.isArray(src)) {
+    return src.map(s => {
+      if (s && typeof s === 'object') {
+        const label = esc(s.name || s.url || '');
+        return s.url
+          ? `<a href="${escAttr(s.url)}" target="_blank" rel="noopener">${label}</a>`
+          : label;
+      }
+      return esc(String(s));
+    }).join(' · ');
   }
+  return esc(src || '');
 }
 
-// ── STATS ─────────────────────────────────────────────────────────────────────
-function updateStats() {
+// ── BUILD A CARD ─────────────────────────────────────────────────────────────
+function buildCard(op) {
+  const state = savedState[op.id] || {};
+  const status = state.status || op.status || 'new';
+  const assignee = (state.assignee != null ? state.assignee : op.assignee) || '';
+  const notes = (state.notes != null ? state.notes : op.notes) || '';
+
+  const marginTag = op.margin === 'high'
+    ? '<span class="tag tag-margin-high">High Margin</span>'
+    : '<span class="tag tag-margin-med">Med Margin</span>';
+
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.dataset.rank = op.rank;
+  card.dataset.vertical = op.vertical;
+  card.dataset.margin = op.margin;
+
+  card.innerHTML = `
+    <div class="card-top" onclick="toggleCard(${op.id})">
+      <div class="card-rank ${op.rank === 1 ? 'top1' : ''}">${esc(op.rank)}</div>
+      <div class="card-main">
+        <div class="card-title-block">
+          <div class="card-title">${esc(op.title)}</div>
+          <div class="card-tags">
+            <span class="tag tag-vertical">${esc(op.vertical)}</span>
+            ${marginTag}
+            <span class="tag tag-source">${esc(op.supplierRegion)}</span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="score-ring ${op.score >= 9 ? 'high' : ''}">
+            <div class="score-num">${esc(op.score)}</div>
+            <div class="score-denom">/10</div>
+          </div>
+          <select class="status-select" data-status="${escAttr(status)}" data-id="${op.id}"
+            onchange="updateStatus(${op.id}, this)" onclick="event.stopPropagation()">
+            <option value="new" ${status==='new'?'selected':''}>● New</option>
+            <option value="researching" ${status==='researching'?'selected':''}>◎ Researching</option>
+            <option value="contacted" ${status==='contacted'?'selected':''}>◈ Contacted</option>
+            <option value="sampling" ${status==='sampling'?'selected':''}>◆ Sampling</option>
+            <option value="active" ${status==='active'?'selected':''}>✦ Active Lead</option>
+            <option value="paused" ${status==='paused'?'selected':''}>⊘ Paused</option>
+          </select>
+          <button class="expand-btn" id="expand-${op.id}" aria-label="Toggle details" onclick="event.stopPropagation(); toggleCard(${op.id})">▾</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-body" id="body-${op.id}">
+      <div class="card-body-inner">
+        <div class="body-col">
+          <div class="body-label">Unique Angle</div>
+          <div class="body-text">${esc(op.angle)}</div>
+        </div>
+        <div class="body-col">
+          <div class="body-label">Why Us</div>
+          <div class="body-text">${esc(op.whyYou)}</div>
+          <div class="body-label" style="margin-top:16px">Entry Strategy</div>
+          <div class="body-text">${esc(op.entry)}</div>
+        </div>
+        <div class="body-col">
+          <div class="body-label">Source First At</div>
+          <div class="body-text">${renderSources(op)}</div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="assignee-block">
+          <div class="assignee-label">Owner</div>
+          <input class="assignee-input" type="text" placeholder="Assign to..."
+            value="${escAttr(assignee)}" id="assignee-${op.id}"
+            onchange="markDirty(${op.id})" onclick="event.stopPropagation()">
+        </div>
+        <input class="notes-input" type="text" placeholder="Add notes or next action..."
+          value="${escAttr(notes)}" id="notes-${op.id}"
+          onchange="markDirty(${op.id})" onclick="event.stopPropagation()">
+        <button class="save-btn" id="save-${op.id}" onclick="saveCard(${op.id}); event.stopPropagation()">Save</button>
+      </div>
+    </div>
+  `;
+  return card;
+}
+
+// ── GROUP BY RUN DATE ────────────────────────────────────────────────────────
+function groupByDate(list) {
+  const groups = {};
+  list.forEach(o => {
+    const d = o.runDate || 'Undated';
+    (groups[d] = groups[d] || []).push(o);
+  });
+  const dates = Object.keys(groups).sort((a, b) => (a < b ? 1 : a > b ? -1 : 0));
+  return dates.map(d => ({
+    date: d,
+    items: groups[d].sort((x, y) => (y.score - x.score) || (x.rank - y.rank))
+  }));
+}
+
+// ── RENDER ───────────────────────────────────────────────────────────────────
+function renderGroups() {
+  const container = document.getElementById('cards-container');
+  container.innerHTML = '';
+  const groups = groupByDate(opportunities);
+
+  groups.forEach((g, gi) => {
+    const section = document.createElement('div');
+    section.className = 'date-group';
+    section.dataset.date = g.date;
+
+    let badge = '';
+    if (gi === 0) badge = '<span class="group-badge latest">Latest Run</span>';
+    else if (gi === 1) badge = '<span class="group-badge previous">Previous Run</span>';
+
+    const header = document.createElement('div');
+    header.className = 'group-header';
+    header.innerHTML = `
+      <span class="group-date">${esc(formatDate(g.date))}</span>
+      ${badge}
+      <span class="group-count">${g.items.length} ${g.items.length === 1 ? 'opportunity' : 'opportunities'}</span>
+    `;
+    section.appendChild(header);
+
+    g.items.forEach(op => section.appendChild(buildCard(op)));
+    container.appendChild(section);
+  });
+
+  applyFilter();
+}
+
+// ── STATS ────────────────────────────────────────────────────────────────────
+function computeStats() {
   const total = opportunities.length;
   const high = opportunities.filter(o => o.margin === 'high').length;
-  const avgScore = total ? (opportunities.reduce((s,o) => s + (o.score||0), 0) / total).toFixed(1) : '—';
-  const verticals = [...new Set(opportunities.map(o => o.vertical))].length;
-
+  const avg = total ? opportunities.reduce((s, o) => s + (Number(o.score) || 0), 0) / total : 0;
+  const verticals = new Set(opportunities.map(o => o.vertical).filter(Boolean)).size;
   document.getElementById('stat-total').textContent = total;
   document.getElementById('stat-high').textContent = high;
-  document.getElementById('stat-score').textContent = avgScore;
+  document.getElementById('stat-score').textContent = avg.toFixed(1);
   document.getElementById('stat-verticals').textContent = verticals;
   updateActiveCount();
 }
 
-// ── RENDER CARDS ──────────────────────────────────────────────────────────────
-function renderCards() {
-  const container = document.getElementById('cards-container');
-  container.innerHTML = '';
-
+function updateActiveCount() {
+  let active = 0;
   opportunities.forEach(op => {
-    const state = savedState[op.id] || {};
-    const status = state.status || op.status || 'new';
-    const assignee = state.assignee || op.assignee || '';
-    const notes = state.notes || op.notes || '';
-
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.dataset.rank = op.rank;
-    card.dataset.vertical = op.vertical;
-    card.dataset.margin = op.margin;
-
-    const marginTag = op.margin === 'high'
-      ? `<span class="tag tag-margin-high">High Margin</span>`
-      : `<span class="tag tag-margin-med">Med Margin</span>`;
-
-    card.innerHTML = `
-      <div class="card-top" onclick="toggleCard(${op.id})">
-        <div class="card-rank ${op.rank === 1 ? 'top1' : ''}">${op.rank}</div>
-        <div class="card-main">
-          <div class="card-title-block">
-            <div class="card-title">${op.title}</div>
-            <div class="card-tags">
-              <span class="tag tag-vertical">${op.vertical}</span>
-              ${marginTag}
-              <span class="tag tag-source">${op.supplierRegion}</span>
-            </div>
-          </div>
-          <div class="card-right">
-            <div class="score-ring ${op.score >= 9 ? 'high' : ''}">
-              <div class="score-num">${op.score}</div>
-              <div class="score-denom">/10</div>
-            </div>
-            <select class="status-select" data-status="${status}" data-id="${op.id}"
-              onchange="updateStatus(${op.id}, this)" onclick="event.stopPropagation()">
-              <option value="new" ${status==='new'?'selected':''}>● New</option>
-              <option value="researching" ${status==='researching'?'selected':''}>◎ Researching</option>
-              <option value="contacted" ${status==='contacted'?'selected':''}>◈ Contacted</option>
-              <option value="sampling" ${status==='sampling'?'selected':''}>◆ Sampling</option>
-              <option value="active" ${status==='active'?'selected':''}>✦ Active Lead</option>
-              <option value="paused" ${status==='paused'?'selected':''}>⊘ Paused</option>
-            </select>
-            <button class="expand-btn" id="expand-${op.id}" aria-label="Toggle details" onclick="event.stopPropagation(); toggleCard(${op.id})">▾</button>
-          </div>
-        </div>
-      </div>
-      <div class="card-body" id="body-${op.id}">
-        <div class="card-body-inner">
-          <div class="body-col">
-            <div class="body-label">Unique Angle</div>
-            <div class="body-text">${op.angle}</div>
-          </div>
-          <div class="body-col">
-            <div class="body-label">Why Us</div>
-            <div class="body-text">${op.whyYou}</div>
-            <br>
-            <div class="body-label" style="margin-top:16px">Entry Strategy</div>
-            <div class="body-text">${op.entry}</div>
-          </div>
-          <div class="body-col">
-            <div class="body-label">Source First At</div>
-            <div class="body-text">${op.source}</div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <div class="assignee-block">
-            <div class="assignee-label">Owner</div>
-            <input class="assignee-input" type="text" placeholder="Assign to..."
-              value="${assignee}" id="assignee-${op.id}"
-              onchange="markDirty(${op.id})" onclick="event.stopPropagation()">
-          </div>
-          <input class="notes-input" type="text" placeholder="Add notes or next action..."
-            value="${notes}" id="notes-${op.id}"
-            onchange="markDirty(${op.id})" onclick="event.stopPropagation()">
-          <button class="save-btn" id="save-${op.id}" onclick="saveCard(${op.id}); event.stopPropagation()">Save</button>
-        </div>
-      </div>
-    `;
-    container.appendChild(card);
+    const s = (savedState[op.id] || {}).status || op.status;
+    if (['contacted', 'sampling', 'active'].includes(s)) active++;
   });
-
-  updateActiveCount();
+  const el = document.getElementById('stat-active');
+  if (el) el.textContent = active;
 }
 
+// ── INTERACTIONS ─────────────────────────────────────────────────────────────
 function toggleCard(id) {
   const body = document.getElementById('body-' + id);
   const btn = document.getElementById('expand-' + id);
-  body.classList.toggle('open');
-  btn.classList.toggle('open');
+  if (body) body.classList.toggle('open');
+  if (btn) btn.classList.toggle('open');
 }
 
 function updateStatus(id, select) {
@@ -837,42 +620,55 @@ function saveCard(id) {
   setTimeout(() => { btn.textContent = 'Save'; btn.classList.remove('saved'); }, 2000);
 }
 
-function updateActiveCount() {
-  let active = 0;
-  opportunities.forEach(op => {
-    const s = (savedState[op.id] || {}).status || op.status || 'new';
-    if (['contacted','sampling','active'].includes(s)) active++;
-  });
-  document.getElementById('stat-active').textContent = active;
-}
-
 // ── FILTERS ──────────────────────────────────────────────────────────────────
-let currentFilter = 'all';
-
 function filterCards(filter, btn) {
   currentFilter = filter;
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   if (btn) btn.classList.add('active');
+  applyFilter();
+}
 
-  const cards = document.querySelectorAll('.card');
-  let visible = 0;
-
-  cards.forEach(card => {
+function applyFilter() {
+  document.querySelectorAll('.card').forEach(card => {
     let show = false;
-    if (filter === 'all') show = true;
-    else if (filter === 'high') show = card.dataset.margin === 'high';
-    else show = card.dataset.vertical === filter;
-
+    if (currentFilter === 'all') show = true;
+    else if (currentFilter === 'high') show = card.dataset.margin === 'high';
+    else show = card.dataset.vertical === currentFilter;
     card.classList.toggle('hidden', !show);
-    if (show) visible++;
   });
 
-  document.getElementById('count-badge').textContent = `Showing ${visible} of ${opportunities.length}`;
-  document.getElementById('empty-state').classList.toggle('visible', visible === 0);
+  let totalVisible = 0;
+  document.querySelectorAll('.date-group').forEach(group => {
+    const vis = group.querySelectorAll('.card:not(.hidden)').length;
+    group.style.display = vis ? '' : 'none';
+    totalVisible += vis;
+    const c = group.querySelector('.group-count');
+    if (c) c.textContent = `${vis} ${vis === 1 ? 'opportunity' : 'opportunities'}`;
+  });
+
+  document.getElementById('count-badge').textContent = `Showing ${totalVisible} of ${opportunities.length}`;
+  document.getElementById('empty-state').classList.toggle('visible', totalVisible === 0);
 }
 
 // ── BOOT ─────────────────────────────────────────────────────────────────────
-loadData();
+async function boot() {
+  try {
+    const res = await fetch(DATA_URL, { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    opportunities = data.opportunities || [];
+    document.getElementById('last-updated').textContent = 'Last run: ' + (data.last_run || '—');
+    computeStats();
+    renderGroups();
+  } catch (e) {
+    document.getElementById('count-badge').textContent = '';
+    document.getElementById('cards-container').innerHTML =
+      '<div class="empty visible"><div class="empty-title">Could not load data</div>' +
+      '<div class="empty-sub">opportunities.json failed to load — ' + esc(e.message) + '</div></div>';
+  }
+}
+
+boot();
 </script>
 </body>
 </html>
