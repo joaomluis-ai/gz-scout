@@ -9,8 +9,158 @@
   ],
   "opportunities": [
     {
-      "id": 131,
+      "id": 136,
       "rank": 1,
+      "runDate": "2026-11-05",
+      "title": "AI Tea Sommelier Stations — Interactive F&B Theatre",
+      "vertical": "F&B",
+      "supplierRegion": "Hangzhou-Shanghai AI hardware corridor",
+      "margin": "high",
+      "score": 9,
+      "angle": "Post-COVID F&B theatre is back but labor-constrained. China's AI tea brewing robots (combining facial recognition mood detection, TCM tongue diagnosis cameras, and precision brewing) create Instagram-worthy moments while reducing sommelier headcount. Zero alcoholic beverage alternatives driving premiumization in tea experiences.",
+      "whyYou": "Direct F&B director access at all five operators through 15-year network allows pilot installations. Greenzone wellness credibility positions this as health-forward vs pure tech gimmick. Can produce brand narrative content showcasing TCM-meets-AI story for resort marketing teams.",
+      "entry": "Contact Teaosophy Robotics (杭州茶术智能) at Alibaba Cloud IoT Expo Hangzhou Dec 2026, or source prototypes via 1688.com keyword '智能茶艺机器人'. Request 1-unit pilot deal through GEG F&B procurement contact.",
+      "sources": [
+        {
+          "name": "Alibaba Cloud IoT Showcase",
+          "url": "https://www.alibabacloud.com"
+        },
+        {
+          "name": "1688.com AI Tea Equipment",
+          "url": "https://www.1688.com"
+        },
+        {
+          "name": "Teaosophy Robotics Hangzhou",
+          "url": "https://www.teaosophy.cn"
+        }
+      ],
+      "status": "new",
+      "assignee": "",
+      "notes": ""
+    },
+    {
+      "id": 137,
+      "rank": 2,
+      "runDate": "2026-11-05",
+      "title": "Graphene Sleep Pods — In-Room Wellness Upgrade",
+      "vertical": "Spa & Wellness",
+      "supplierRegion": "Shenzhen-Dongguan graphene manufacturing hub",
+      "margin": "high",
+      "score": 8,
+      "angle": "Ultra-wealthy guests now demand biohacking amenities in-room. China dominates graphene production (70% global supply). Graphene-heated sleep pods with far-infrared therapy, oxygen enrichment, and sleep tracking are becoming standard in China's top-tier wellness hotels but untapped in Macau. Positions resort as recovery destination for casino floor fatigue.",
+      "whyYou": "Existing GEG wellness programming relationship provides direct route to spa/rooms decision-makers. Greenzone Fitness brand allows positioning as medically-informed wellness vs gimmick. Can create video content demonstrating recovery benefits for casino players (key revenue demo).",
+      "entry": "Attend CIFF Guangzhou (China International Furniture Fair) March 2027 or contact Dongguan Nano-Carbon Wellness Tech via Alibaba International. Request trial unit installation in Banyan Tree Spa Macau (Galaxy) through spa director connection.",
+      "sources": [
+        {
+          "name": "CIFF Guangzhou Furniture Fair",
+          "url": "https://www.ciff-gz.com"
+        },
+        {
+          "name": "Alibaba International Graphene",
+          "url": "https://www.alibaba.com"
+        },
+        {
+          "name": "China Graphene Industry Alliance",
+          "url": "https://www.c-gia.org"
+        }
+      ],
+      "status": "new",
+      "assignee": "",
+      "notes": ""
+    },
+    {
+      "id": 138,
+      "rank": 3,
+      "runDate": "2026-11-05",
+      "title": "Intangible Heritage Craft Workshops — Retail Experience",
+      "vertical": "Retail",
+      "supplierRegion": "Jingdezhen (porcelain), Suzhou (embroidery),景德镇/苏州",
+      "margin": "high",
+      "score": 8,
+      "angle": "Luxury retail shifting from product-only to experience + product. China's Intangible Cultural Heritage craftmasters (UNESCO-listed techniques) available for resort residencies. Guests create custom porcelain/embroidery pieces, collect in 6 weeks. Addresses retail premiumization and unique Macau cultural positioning vs Singapore/Dubai.",
+      "whyYou": "15-year network provides retail director access for pilot programming. Creative/media background allows documentation of craftmaster stories for resort content marketing. Can package as MICE team-building offering through existing GEG MICE relationship.",
+      "entry": "Contact Jingdezhen Ceramic Institute's Master Artisan Programme or Suzhou Embroidery Research Institute. Propose 2-week artist residency pilot at Wynn Palace or MGM Cotai through retail programming teams. Source artisan networks via 1688.com keyword '非遗大师工作坊'.",
+      "sources": [
+        {
+          "name": "Jingdezhen Ceramic Institute",
+          "url": "https://www.jci.edu.cn"
+        },
+        {
+          "name": "China Intangible Cultural Heritage",
+          "url": "https://www.ihchina.cn"
+        },
+        {
+          "name": "1688.com Heritage Craft Suppliers",
+          "url": "https://www.1688.com"
+        }
+      ],
+      "status": "new",
+      "assignee": "",
+      "notes": ""
+    },
+    {
+      "id": 139,
+      "rank": 4,
+      "runDate": "2026-11-05",
+      "title": "Esports Recovery Lounges — Entertainment Wellness Hybrid",
+      "vertical": "Entertainment/MICE",
+      "supplierRegion": "Guangzhou-Shenzhen esports equipment cluster",
+      "margin": "medium",
+      "score": 7,
+      "angle": "Macau pushing non-gaming revenue; esports tournaments growing but missing wellness angle competitors have. Integrate gaming lounges with IV drip stations, compression therapy chairs, biometric monitoring, and functional nutrition from China's booming esports health sector. Captures millennial/Gen-Z wellness spend while supporting entertainment mandate.",
+      "whyYou": "Greenzone Fitness wellness credibility bridges gaming and health (typically separate). Direct MICE/entertainment director access through network. Can develop medical protocols and staff training content, differentiating from pure equipment play.",
+      "entry": "Visit CESE Guangzhou (China Esports Summit & Expo) or contact Vspo Entertainment's wellness division. Pitch pilot installation to Venetian Macao MICE team (Sands) emphasizing corporate esports events + wellness angle.",
+      "sources": [
+        {
+          "name": "CESE China Esports Expo",
+          "url": "https://www.cesegz.com"
+        },
+        {
+          "name": "Vspo Esports Wellness Division",
+          "url": "https://www.vspo.com"
+        },
+        {
+          "name": "Tmall Esports Health Equipment",
+          "url": "https://www.tmall.com"
+        }
+      ],
+      "status": "new",
+      "assignee": "",
+      "notes": ""
+    },
+    {
+      "id": 140,
+      "rank": 5,
+      "runDate": "2026-11-05",
+      "title": "Mycelium Packaging Circularity Programme — Sustainability Operations",
+      "vertical": "Sustainability",
+      "supplierRegion": "Yunnan mushroom cultivation bases + Shanghai biotech",
+      "margin": "medium",
+      "score": 7,
+      "angle": "Macau resorts face increasing waste disposal costs and regulatory pressure. China's mycelium packaging (mushroom-root foam replacing Styrofoam) is price-competitive with traditional materials for first time in 2026. Fully compostable in 30 days, creates circular loop with resort food waste. Strong ESG reporting narrative.",
+      "whyYou": "Sustainability contacts across all five operators via 15-year network. Can position as cost-neutral sustainability win (CFO + CSR appeal). Media production capability creates compelling ESG storytelling for resort annual reports and awards submissions.",
+      "entry": "Contact Mycoworks Shanghai or Ecovative Asia distributor. Propose pilot replacing Styrofoam in F&B cold chain deliveries at Galaxy Macau through procurement/sustainability director. Source suppliers via 1688.com keyword '菌丝体包装材料'.",
+      "sources": [
+        {
+          "name": "Ecovative Asia Mycelium Solutions",
+          "url": "https://www.ecovative.com"
+        },
+        {
+          "name": "China Circular Economy Association",
+          "url": "https://www.chinacace.org"
+        },
+        {
+          "name": "1688.com Mycelium Packaging",
+          "url": "https://www.1688.com"
+        }
+      ],
+      "status": "new",
+      "assignee": "",
+      "notes": ""
+    },
+    {
+      "id": 131,
+      "rank": 6,
       "runDate": "2026-11-05",
       "title": "Ningxia Goji & Cordyceps Sleep Supplements — In-Room Wellness Dispensary",
       "vertical": "Hotel Ops",
@@ -40,7 +190,7 @@
     },
     {
       "id": 132,
-      "rank": 2,
+      "rank": 7,
       "runDate": "2026-11-05",
       "title": "Yunnan Wild Mushroom Experiential Foraging Kits — F&B Tableside Theater",
       "vertical": "F&B",
@@ -70,7 +220,7 @@
     },
     {
       "id": 133,
-      "rank": 3,
+      "rank": 8,
       "runDate": "2026-11-05",
       "title": "Jingdezhen Ceramic Aromatherapy Diffusers — Smart Scent Guest Personalization",
       "vertical": "Spa & Wellness",
@@ -100,7 +250,7 @@
     },
     {
       "id": 134,
-      "rank": 4,
+      "rank": 9,
       "runDate": "2026-11-05",
       "title": "Guizhou Miao Indigo Dye Sustainable Uniform Programme — Staff Wellbeing x Heritage",
       "vertical": "Sustainability",
@@ -130,7 +280,7 @@
     },
     {
       "id": 135,
-      "rank": 5,
+      "rank": 10,
       "runDate": "2026-11-05",
       "title": "Sichuan Ya'an Panda Tea VIP Gifting & MICE Ritual — Luxury Retail x Entertainment",
       "vertical": "Retail",
@@ -160,7 +310,7 @@
     },
     {
       "id": 126,
-      "rank": 6,
+      "rank": 11,
       "runDate": "2026-06-22",
       "title": "Yunnan Wild Mushroom & Matsutake Programme — Farm-to-Table Luxury Ingredient",
       "vertical": "F&B",
@@ -186,7 +336,7 @@
     },
     {
       "id": 127,
-      "rank": 7,
+      "rank": 12,
       "runDate": "2026-06-22",
       "title": "Sleep Optimization Room Retrofits — Circadian Lighting & Air Systems",
       "vertical": "Hotel Ops",
@@ -212,7 +362,7 @@
     },
     {
       "id": 128,
-      "rank": 8,
+      "rank": 13,
       "runDate": "2026-06-22",
       "title": "Fermented Tea Beauty Line — Pu'er & Dark Tea Skincare",
       "vertical": "Spa & Wellness",
@@ -238,7 +388,7 @@
     },
     {
       "id": 129,
-      "rank": 9,
+      "rank": 14,
       "runDate": "2026-06-22",
       "title": "Edible Flower & Microgreen Vertical Farms — In-House Culinary Gardens",
       "vertical": "Sustainability",
@@ -264,7 +414,7 @@
     },
     {
       "id": 130,
-      "rank": 10,
+      "rank": 15,
       "runDate": "2026-06-22",
       "title": "Guochao Designer Room Accessories — Neo-Chinese Aesthetic Retail",
       "vertical": "Retail",
@@ -290,7 +440,7 @@
     },
     {
       "id": 121,
-      "rank": 11,
+      "rank": 16,
       "runDate": "2026-06-22",
       "title": "Edible Bird's Nest Wellness Shots — Premium RTD Format",
       "vertical": "F&B",
@@ -316,7 +466,7 @@
     },
     {
       "id": 122,
-      "rank": 12,
+      "rank": 17,
       "runDate": "2026-06-22",
       "title": "Graphene-Enhanced Sleep Textiles — Pillowcases & Eye Masks",
       "vertical": "Hotel Ops",
@@ -342,7 +492,7 @@
     },
     {
       "id": 123,
-      "rank": 13,
+      "rank": 18,
       "runDate": "2026-06-22",
       "title": "Pu'er Tea Meditation Pods — Scent Diffusion Systems",
       "vertical": "Spa & Wellness",
@@ -368,7 +518,7 @@
     },
     {
       "id": 124,
-      "rank": 14,
+      "rank": 19,
       "runDate": "2026-06-22",
       "title": "Jingdezhen Porcelain Wellness Rituals — Tea Ceremony Retail Kits",
       "vertical": "Retail",
@@ -394,7 +544,7 @@
     },
     {
       "id": 125,
-      "rank": 15,
+      "rank": 20,
       "runDate": "2026-06-22",
       "title": "Enzymatic Waste Digesters — F&B Circular Economy Tech",
       "vertical": "Sustainability",
@@ -420,7 +570,7 @@
     },
     {
       "id": 116,
-      "rank": 16,
+      "rank": 21,
       "runDate": "2026-06-22",
       "title": "Circadian Sleep Tech Amenity Kits — In-Room Wellness",
       "vertical": "Hotel Ops",
@@ -450,7 +600,7 @@
     },
     {
       "id": 117,
-      "rank": 17,
+      "rank": 22,
       "runDate": "2026-06-22",
       "title": "Black Garlic Wellness Elixirs — Premium F&B",
       "vertical": "F&B",
@@ -480,7 +630,7 @@
     },
     {
       "id": 118,
-      "rank": 18,
+      "rank": 23,
       "runDate": "2026-06-22",
       "title": "Air Quality Monitoring & Scent Branding System — Guest Experience Tech",
       "vertical": "Hotel Ops",
@@ -510,7 +660,7 @@
     },
     {
       "id": 119,
-      "rank": 19,
+      "rank": 24,
       "runDate": "2026-06-22",
       "title": "Medicinal Mushroom Coffee & Tea Bars — Spa Pre/Post Ritual",
       "vertical": "Spa & Wellness",
@@ -540,7 +690,7 @@
     },
     {
       "id": 120,
-      "rank": 20,
+      "rank": 25,
       "runDate": "2026-06-22",
       "title": "Smart Silence Pods — MICE Wellness Zones",
       "vertical": "Entertainment/MICE",
@@ -570,7 +720,7 @@
     },
     {
       "id": 111,
-      "rank": 21,
+      "rank": 26,
       "runDate": "2026-05-28",
       "title": "Yunnan Wild Mushroom Functional Broths — Zero-Waste F&B Enhancement",
       "vertical": "F&B",
@@ -600,7 +750,7 @@
     },
     {
       "id": 112,
-      "rank": 22,
+      "rank": 27,
       "runDate": "2026-05-28",
       "title": "Circadian Rhythm Lighting Systems — Guest Room Sleep Tech",
       "vertical": "Hotel Ops",
@@ -630,7 +780,7 @@
     },
     {
       "id": 113,
-      "rank": 23,
+      "rank": 28,
       "runDate": "2026-05-28",
       "title": "Guizhou Silver Jewelry Artisan Retail — Cultural Provenance Line",
       "vertical": "Retail",
@@ -660,7 +810,7 @@
     },
     {
       "id": 114,
-      "rank": 24,
+      "rank": 29,
       "runDate": "2026-05-28",
       "title": "Fermented Tea Kombucha Spa Treatment — Yunnan Probiotic Skincare",
       "vertical": "Spa & Wellness",
@@ -690,7 +840,7 @@
     },
     {
       "id": 115,
-      "rank": 25,
+      "rank": 30,
       "runDate": "2026-05-28",
       "title": "Seaweed-Based Food Packaging — Zero-Plastic F&B Operations",
       "vertical": "Sustainability",
@@ -720,7 +870,7 @@
     },
     {
       "id": 106,
-      "rank": 26,
+      "rank": 31,
       "runDate": "2026-05-21",
       "title": "Yunnan Snow Tea Luxury Sleep Programme — In-Room Wellness Ritual",
       "vertical": "Hotel Ops",
@@ -746,7 +896,7 @@
     },
     {
       "id": 107,
-      "rank": 27,
+      "rank": 32,
       "runDate": "2026-05-21",
       "title": "Jingdezhen Ceramic Wine Decanter Suites — F&B Premiumization",
       "vertical": "F&B",
@@ -772,7 +922,7 @@
     },
     {
       "id": 108,
-      "rank": 28,
+      "rank": 33,
       "runDate": "2026-05-21",
       "title": "Guizhou Miao Silver Massage Tools — Spa Ritual Differentiation",
       "vertical": "Spa & Wellness",
@@ -798,7 +948,7 @@
     },
     {
       "id": 109,
-      "rank": 29,
+      "rank": 34,
       "runDate": "2026-05-21",
       "title": "Ningxia Goji Energy Gel Sachets — MICE & Gaming Floor Refresh",
       "vertical": "Entertainment/MICE",
@@ -824,7 +974,7 @@
     },
     {
       "id": 110,
-      "rank": 30,
+      "rank": 35,
       "runDate": "2026-05-21",
       "title": "Fujian Bamboo Charcoal Air Purifier Modules — Sustainability & Wellness Ops",
       "vertical": "Sustainability",
@@ -850,7 +1000,7 @@
     },
     {
       "id": 101,
-      "rank": 31,
+      "rank": 36,
       "runDate": "2026-05-18",
       "title": "Smart Sleep Scent Diffusion Systems — In-Room Circadian Wellness",
       "vertical": "Hotel Ops",
@@ -876,7 +1026,7 @@
     },
     {
       "id": 102,
-      "rank": 32,
+      "rank": 37,
       "runDate": "2026-05-18",
       "title": "Live Tea Ceremony Performance Kits — Theatrical F&B Experience",
       "vertical": "F&B",
@@ -902,7 +1052,7 @@
     },
     {
       "id": 103,
-      "rank": 33,
+      "rank": 38,
       "runDate": "2026-05-18",
       "title": "Cryotherapy Recovery Pods — Express Spa for Gaming Floors",
       "vertical": "Spa & Wellness",
@@ -928,7 +1078,7 @@
     },
     {
       "id": 104,
-      "rank": 34,
+      "rank": 39,
       "runDate": "2026-05-18",
       "title": "Artisan Pu-erh Tea Cakes — Luxury Retail Consumables",
       "vertical": "Retail",
@@ -954,7 +1104,7 @@
     },
     {
       "id": 105,
-      "rank": 35,
+      "rank": 40,
       "runDate": "2026-05-18",
       "title": "VR Tai Chi Studios — Entertainment Wellness Hybrid",
       "vertical": "Entertainment/MICE",
@@ -980,7 +1130,7 @@
     },
     {
       "id": 96,
-      "rank": 36,
+      "rank": 41,
       "runDate": "2026-05-14",
       "title": "Smart Sleep Wellness Pods — In-Room Recovery Experience",
       "vertical": "Hotel Ops",
@@ -1010,7 +1160,7 @@
     },
     {
       "id": 97,
-      "rank": 37,
+      "rank": 42,
       "runDate": "2026-05-14",
       "title": "Gongfu Tea Ceremony Kits — Premium F&B Ritual Experience",
       "vertical": "F&B",
@@ -1040,7 +1190,7 @@
     },
     {
       "id": 98,
-      "rank": 38,
+      "rank": 43,
       "runDate": "2026-05-14",
       "title": "AI Guest Preference Engine — Personalized Wellness Concierge",
       "vertical": "Hotel Ops",
@@ -1070,7 +1220,7 @@
     },
     {
       "id": 99,
-      "rank": 39,
+      "rank": 44,
       "runDate": "2026-05-14",
       "title": "Bamboo Fiber Luxury Packaging — Sustainable Gift & Retail System",
       "vertical": "Sustainability",
@@ -1100,7 +1250,7 @@
     },
     {
       "id": 100,
-      "rank": 40,
+      "rank": 45,
       "runDate": "2026-05-14",
       "title": "Holographic Traditional Opera Projection — MICE/Entertainment Tech",
       "vertical": "Entertainment/MICE",
@@ -1130,7 +1280,7 @@
     },
     {
       "id": 91,
-      "rank": 41,
+      "rank": 46,
       "runDate": "2026-05-13",
       "title": "Yunnan Rare Mushroom Gourmet Line — Fresh & Dried Premium Fungi",
       "vertical": "F&B",
@@ -1147,7 +1297,7 @@
     },
     {
       "id": 92,
-      "rank": 42,
+      "rank": 47,
       "runDate": "2026-05-13",
       "title": "Sleep Tech Aromatherapy System — AI-Adjusted Scent Diffusion",
       "vertical": "Hotel Ops",
@@ -1164,7 +1314,7 @@
     },
     {
       "id": 93,
-      "rank": 43,
+      "rank": 48,
       "runDate": "2026-05-13",
       "title": "Guizhou Silver Needle Tea Ceremony — Immersive Tea Ritual Experience",
       "vertical": "Entertainment/MICE",
@@ -1181,7 +1331,7 @@
     },
     {
       "id": 94,
-      "rank": 44,
+      "rank": 49,
       "runDate": "2026-05-13",
       "title": "Probiotic Bed Linens — Microbiome-Friendly Textile Treatment",
       "vertical": "Spa & Wellness",
@@ -1198,7 +1348,7 @@
     },
     {
       "id": 95,
-      "rank": 45,
+      "rank": 50,
       "runDate": "2026-05-13",
       "title": "Sichuan Pepper Wellness Tinctures — Numbing Botanical Remedies",
       "vertical": "Retail",
@@ -1215,7 +1365,7 @@
     },
     {
       "id": 86,
-      "rank": 46,
+      "rank": 51,
       "runDate": "2026-05-13",
       "title": "Circadian Lighting Retrofit Systems — Sleep Optimization Suite",
       "vertical": "Hotel Ops",
@@ -1232,7 +1382,7 @@
     },
     {
       "id": 87,
-      "rank": 47,
+      "rank": 52,
       "runDate": "2026-05-13",
       "title": "Live-Culture Fermentation Bars — Interactive Wellness F&B",
       "vertical": "F&B",
@@ -1249,7 +1399,7 @@
     },
     {
       "id": 88,
-      "rank": 48,
+      "rank": 53,
       "runDate": "2026-05-13",
       "title": "Scent-Memory AI Diffusion Systems — Personalized Aromatherapy",
       "vertical": "Spa & Wellness",
@@ -1266,7 +1416,7 @@
     },
     {
       "id": 89,
-      "rank": 49,
+      "rank": 54,
       "runDate": "2026-05-13",
       "title": "Edible Flower & Microgreen Hydroponic Kiosks — Hyper-Local F&B",
       "vertical": "Sustainability",
@@ -1283,7 +1433,7 @@
     },
     {
       "id": 90,
-      "rank": 50,
+      "rank": 55,
       "runDate": "2026-05-13",
       "title": "Haptic Sound Therapy Loungers — Immersive Wellness Furniture",
       "vertical": "Entertainment/MICE",
@@ -1300,7 +1450,7 @@
     },
     {
       "id": 81,
-      "rank": 51,
+      "rank": 56,
       "runDate": "2026-05-13",
       "title": "Qigong Energy Recovery Pods — In-Room Wellness Tech",
       "vertical": "Hotel Ops",
@@ -1317,7 +1467,7 @@
     },
     {
       "id": 82,
-      "rank": 52,
+      "rank": 57,
       "runDate": "2026-05-13",
       "title": "Live Fermentation Theatre Stations — Experiential F&B",
       "vertical": "F&B",
@@ -1334,7 +1484,7 @@
     },
     {
       "id": 83,
-      "rank": 53,
+      "rank": 58,
       "runDate": "2026-05-13",
       "title": "Longevity Genomics Gifting Kits — Retail Luxury",
       "vertical": "Retail",
@@ -1351,7 +1501,7 @@
     },
     {
       "id": 84,
-      "rank": 54,
+      "rank": 59,
       "runDate": "2026-05-13",
       "title": "Sound Healing Frequency Dining — Entertainment/MICE",
       "vertical": "Entertainment/MICE",
@@ -1368,7 +1518,7 @@
     },
     {
       "id": 85,
-      "rank": 55,
+      "rank": 60,
       "runDate": "2026-05-13",
       "title": "Mycelium Luxury Goods Programme — Sustainability",
       "vertical": "Sustainability",
@@ -1385,7 +1535,7 @@
     },
     {
       "id": 76,
-      "rank": 56,
+      "rank": 61,
       "runDate": "2026-05-13",
       "title": "Guzheng & Sound Healing Spa Instruments — Therapeutic Entertainment",
       "vertical": "Spa & Wellness",
@@ -1402,7 +1552,7 @@
     },
     {
       "id": 77,
-      "rank": 57,
+      "rank": 62,
       "runDate": "2026-05-13",
       "title": "Fermented Tea Probiotic Skincare — Pu'er Cosmeceuticals",
       "vertical": "Retail",
@@ -1419,7 +1569,7 @@
     },
     {
       "id": 78,
-      "rank": 58,
+      "rank": 63,
       "runDate": "2026-05-13",
       "title": "Modular Bamboo Air Purification Walls — Living Biofiltration",
       "vertical": "Sustainability",
@@ -1436,7 +1586,7 @@
     },
     {
       "id": 79,
-      "rank": 59,
+      "rank": 64,
       "runDate": "2026-05-13",
       "title": "Longjing Tea Nitrogen Coffee Systems — Zero-Compromise Caffeine",
       "vertical": "F&B",
@@ -1453,7 +1603,7 @@
     },
     {
       "id": 80,
-      "rank": 60,
+      "rank": 65,
       "runDate": "2026-05-13",
       "title": "Jingdezhen Porcelain Sleep Ritual Tools — Ceramic Wellness Objects",
       "vertical": "Hotel Ops",
@@ -1470,7 +1620,7 @@
     },
     {
       "id": 71,
-      "rank": 61,
+      "rank": 66,
       "runDate": "2026-05-13",
       "title": "Smart Sleep Pods & Circadian Lighting Systems — In-Room Biohacking",
       "vertical": "Hotel Ops",
@@ -1487,7 +1637,7 @@
     },
     {
       "id": 72,
-      "rank": 62,
+      "rank": 67,
       "runDate": "2026-05-13",
       "title": "Gongfu Tea Ceremony Automation Bars — High-Touch F&B Experience",
       "vertical": "F&B",
@@ -1504,7 +1654,7 @@
     },
     {
       "id": 73,
-      "rank": 63,
+      "rank": 68,
       "runDate": "2026-05-13",
       "title": "AI-Powered Guest Wellness Profiling Kiosks — Personalized Experience Gateway",
       "vertical": "Spa & Wellness",
@@ -1521,7 +1671,7 @@
     },
     {
       "id": 74,
-      "rank": 64,
+      "rank": 69,
       "runDate": "2026-05-13",
       "title": "Artisan Fermented Condiment Collections — Luxury Umami Pantry",
       "vertical": "Retail",
@@ -1538,7 +1688,7 @@
     },
     {
       "id": 75,
-      "rank": 65,
+      "rank": 70,
       "runDate": "2026-05-13",
       "title": "Holographic Projection Stage Systems — Immersive Cultural MICE Entertainment",
       "vertical": "Entertainment/MICE",
@@ -1555,7 +1705,7 @@
     },
     {
       "id": 66,
-      "rank": 66,
+      "rank": 71,
       "runDate": "2026-05-11",
       "title": "Cognitive Wellness Nootropic Tea Ceremony — MICE & VIP Gaming Lounge Service",
       "vertical": "F&B",
@@ -1572,7 +1722,7 @@
     },
     {
       "id": 67,
-      "rank": 67,
+      "rank": 72,
       "runDate": "2026-05-11",
       "title": "Circadian Lighting Control System — Premium Suite Sleep Optimization",
       "vertical": "Hotel Ops",
@@ -1588,7 +1738,7 @@
     },
     {
       "id": 68,
-      "rank": 68,
+      "rank": 73,
       "runDate": "2026-05-11",
       "title": "Cordyceps Militaris Fresh Extract Bar — Live Wellness Theater",
       "vertical": "Spa & Wellness",
@@ -1604,7 +1754,7 @@
     },
     {
       "id": 69,
-      "rank": 69,
+      "rank": 74,
       "runDate": "2026-05-11",
       "title": "Jingdezhen Porcelain Wellness Ritual Ware — Branded Spa Retail",
       "vertical": "Retail",
@@ -1620,7 +1770,7 @@
     },
     {
       "id": 70,
-      "rank": 70,
+      "rank": 75,
       "runDate": "2026-05-11",
       "title": "Fermented Rice Water Hair & Bath Amenity — Heritage Beauty Line",
       "vertical": "Hotel Ops",
@@ -1637,7 +1787,7 @@
     },
     {
       "id": 61,
-      "rank": 71,
+      "rank": 76,
       "runDate": "2026-05-11",
       "title": "Circadian Sleep Optimization Systems — In-Room Wellness Tech",
       "vertical": "Hotel Ops",
@@ -1654,7 +1804,7 @@
     },
     {
       "id": 62,
-      "rank": 72,
+      "rank": 77,
       "runDate": "2026-05-11",
       "title": "Longevity Nutrition Pods — Personalized F&B Kiosks",
       "vertical": "F&B",
@@ -1671,7 +1821,7 @@
     },
     {
       "id": 63,
-      "rank": 73,
+      "rank": 78,
       "runDate": "2026-05-11",
       "title": "Nitrogen Ice Cream Theatre Carts — Live F&B Entertainment",
       "vertical": "F&B",
@@ -1688,7 +1838,7 @@
     },
     {
       "id": 64,
-      "rank": 74,
+      "rank": 79,
       "runDate": "2026-05-11",
       "title": "Mycelium Leather Luxury Goods — Sustainable Retail Collab",
       "vertical": "Retail",
@@ -1705,7 +1855,7 @@
     },
     {
       "id": 65,
-      "rank": 75,
+      "rank": 80,
       "runDate": "2026-05-11",
       "title": "Sound Healing Frequency Chambers — Immersive Spa Rooms",
       "vertical": "Spa & Wellness",
@@ -1722,7 +1872,7 @@
     },
     {
       "id": 56,
-      "rank": 76,
+      "rank": 81,
       "runDate": "2026-05-11",
       "title": "Ningxia Goji Berry Sleep Ritual — F&B Nightcap Programme",
       "vertical": "F&B",
@@ -1739,7 +1889,7 @@
     },
     {
       "id": 57,
-      "rank": 77,
+      "rank": 82,
       "runDate": "2026-05-11",
       "title": "Guizhou Miao Silver Air Purification Ornaments — Hotel Ops Air Quality",
       "vertical": "Hotel Ops",
@@ -1756,7 +1906,7 @@
     },
     {
       "id": 58,
-      "rank": 78,
+      "rank": 83,
       "runDate": "2026-05-11",
       "title": "Yunnan Acoustic Singing Bowl Meditation Pods — Entertainment/MICE",
       "vertical": "Entertainment/MICE",
@@ -1773,7 +1923,7 @@
     },
     {
       "id": 59,
-      "rank": 79,
+      "rank": 84,
       "runDate": "2026-05-11",
       "title": "Jingdezhen Ceramic Aromatherapy Diffuser Suites — Spa & Wellness Retail",
       "vertical": "Retail",
@@ -1790,7 +1940,7 @@
     },
     {
       "id": 60,
-      "rank": 80,
+      "rank": 85,
       "runDate": "2026-05-11",
       "title": "Inner Mongolia Cashmere Weighted Meditation Blankets — Spa & Wellness",
       "vertical": "Spa & Wellness",
@@ -1807,7 +1957,7 @@
     },
     {
       "id": 51,
-      "rank": 81,
+      "rank": 86,
       "runDate": "2026-05-11",
       "title": "Electromagnetic Sleep Optimization Panels — In-Room Wellness Infrastructure",
       "vertical": "Hotel Ops",
@@ -1824,7 +1974,7 @@
     },
     {
       "id": 52,
-      "rank": 82,
+      "rank": 87,
       "runDate": "2026-05-11",
       "title": "Fermented Fungal Protein Premium Snacks — Luxury Minibar & Casino Floor",
       "vertical": "F&B",
@@ -1841,7 +1991,7 @@
     },
     {
       "id": 53,
-      "rank": 83,
+      "rank": 88,
       "runDate": "2026-05-11",
       "title": "Negative Ion Ceramic Floor Tiles — Spa & Pool Deck Retrofit",
       "vertical": "Spa & Wellness",
@@ -1858,7 +2008,7 @@
     },
     {
       "id": 54,
-      "rank": 84,
+      "rank": 89,
       "runDate": "2026-05-11",
       "title": "Edible Flower Hydroponic Grow Systems — Live In-Restaurant Micro-Farms",
       "vertical": "F&B",
@@ -1875,7 +2025,7 @@
     },
     {
       "id": 55,
-      "rank": 85,
+      "rank": 90,
       "runDate": "2026-05-11",
       "title": "Graphene-Enhanced Spa Linens — Performance Wellness Textiles",
       "vertical": "Spa & Wellness",
@@ -1892,7 +2042,7 @@
     },
     {
       "id": 46,
-      "rank": 86,
+      "rank": 91,
       "runDate": "2026-05-11",
       "title": "Sleep Recovery Pods & Circadian Wellness Tech — Gaming Fatigue Solution",
       "vertical": "Spa & Wellness",
@@ -1909,7 +2059,7 @@
     },
     {
       "id": 47,
-      "rank": 87,
+      "rank": 92,
       "runDate": "2026-05-11",
       "title": "Yixing Clay Tea Ceremony Theatre — Experiential F&B",
       "vertical": "F&B",
@@ -1926,7 +2076,7 @@
     },
     {
       "id": 48,
-      "rank": 88,
+      "rank": 93,
       "runDate": "2026-05-11",
       "title": "Intelligent Air Quality Micro-Climate Systems — Guangdong Smog Solution",
       "vertical": "Hotel Ops",
@@ -1943,7 +2093,7 @@
     },
     {
       "id": 49,
-      "rank": 89,
+      "rank": 94,
       "runDate": "2026-05-11",
       "title": "Premium CBD & Hemp Wellness Line — Post-Gaming Recovery",
       "vertical": "Spa & Wellness",
@@ -1960,7 +2110,7 @@
     },
     {
       "id": 50,
-      "rank": 90,
+      "rank": 95,
       "runDate": "2026-05-11",
       "title": "Interactive Digital Art & Projection Mapping — MICE Differentiation",
       "vertical": "Entertainment/MICE",
@@ -1977,7 +2127,7 @@
     },
     {
       "id": 41,
-      "rank": 91,
+      "rank": 96,
       "runDate": "2026-05-11",
       "title": "Yunnan Premium Pu-erh Coffee Fusion — Luxury In-Room Beverage",
       "vertical": "F&B",
@@ -1994,7 +2144,7 @@
     },
     {
       "id": 42,
-      "rank": 92,
+      "rank": 97,
       "runDate": "2026-05-11",
       "title": "Graphene-Enhanced Cooling Bedding — Climate-Smart Sleep Tech",
       "vertical": "Hotel Ops",
@@ -2011,7 +2161,7 @@
     },
     {
       "id": 43,
-      "rank": 93,
+      "rank": 98,
       "runDate": "2026-05-11",
       "title": "Guizhou Miao Medicinal Bath Sachets — Heritage Wellness Ritual",
       "vertical": "Spa & Wellness",
@@ -2028,7 +2178,7 @@
     },
     {
       "id": 44,
-      "rank": 94,
+      "rank": 99,
       "runDate": "2026-05-11",
       "title": "Bamboo Fiber RFID Laundry System — Circular Textile Ops",
       "vertical": "Sustainability",
@@ -2045,7 +2195,7 @@
     },
     {
       "id": 45,
-      "rank": 95,
+      "rank": 100,
       "runDate": "2026-05-11",
       "title": "Xinjiang Altai Pine Nut Oil — Luxury Culinary & Wellness SKU",
       "vertical": "Retail",
@@ -2062,7 +2212,7 @@
     },
     {
       "id": 36,
-      "rank": 96,
+      "rank": 101,
       "runDate": "2026-05-08",
       "title": "Longevity Peptide Collagen Shots — Premium In-Room Wellness",
       "vertical": "Spa & Wellness",
@@ -2079,7 +2229,7 @@
     },
     {
       "id": 37,
-      "rank": 97,
+      "rank": 102,
       "runDate": "2026-05-08",
       "title": "Smart Fragrance Diffusion Systems — AI-Powered Scent Marketing",
       "vertical": "Hotel Ops",
@@ -2096,7 +2246,7 @@
     },
     {
       "id": 38,
-      "rank": 98,
+      "rank": 103,
       "runDate": "2026-05-08",
       "title": "Upcycled Food Waste Luxury Condiments — Zero-Waste F&B",
       "vertical": "F&B",
@@ -2113,7 +2263,7 @@
     },
     {
       "id": 39,
-      "rank": 99,
+      "rank": 104,
       "runDate": "2026-05-08",
       "title": "Generative AI Art Prints — Personalized Guest Mementos",
       "vertical": "Retail",
@@ -2130,7 +2280,7 @@
     },
     {
       "id": 40,
-      "rank": 100,
+      "rank": 105,
       "runDate": "2026-05-08",
       "title": "Modular Living Wall Systems — Biophilic MICE Spaces",
       "vertical": "Entertainment/MICE",
@@ -2147,7 +2297,7 @@
     },
     {
       "id": 31,
-      "rank": 101,
+      "rank": 106,
       "runDate": "2026-05-08",
       "title": "Smart Sleep Optimization Systems — AI-Powered Room Environment",
       "vertical": "Hotel Ops",
@@ -2164,7 +2314,7 @@
     },
     {
       "id": 32,
-      "rank": 102,
+      "rank": 107,
       "runDate": "2026-05-08",
       "title": "Yunnan Specialty Coffee F&B Programme — Single-Origin Luxury Line",
       "vertical": "F&B",
@@ -2181,7 +2331,7 @@
     },
     {
       "id": 33,
-      "rank": 103,
+      "rank": 108,
       "runDate": "2026-05-08",
       "title": "Tibetan Sound Healing Instruments — Spa Ritual Integration",
       "vertical": "Spa & Wellness",
@@ -2198,7 +2348,7 @@
     },
     {
       "id": 34,
-      "rank": 104,
+      "rank": 109,
       "runDate": "2026-05-08",
       "title": "Fermented Tea Mocktail Base Programme — Pu'er/Liu Bao Mixology",
       "vertical": "F&B",
@@ -2215,7 +2365,7 @@
     },
     {
       "id": 35,
-      "rank": 105,
+      "rank": 110,
       "runDate": "2026-05-08",
       "title": "AI-Generated Personalized Guest Art Prints — In-Room Retail",
       "vertical": "Retail",
@@ -2232,7 +2382,7 @@
     },
     {
       "id": 26,
-      "rank": 106,
+      "rank": 111,
       "runDate": "2026-05-08",
       "title": "AI Sommelier Pairing Tablets — Interactive F&B Tech",
       "vertical": "F&B",
@@ -2249,7 +2399,7 @@
     },
     {
       "id": 27,
-      "rank": 107,
+      "rank": 112,
       "runDate": "2026-05-08",
       "title": "Medicinal Mushroom Coffee Bar Systems — Functional F&B",
       "vertical": "F&B",
@@ -2266,7 +2416,7 @@
     },
     {
       "id": 28,
-      "rank": 108,
+      "rank": 113,
       "runDate": "2026-05-08",
       "title": "Quantum Dot Circadian Lighting Retrofit — Sleep Wellness Tech",
       "vertical": "Hotel Ops",
@@ -2283,7 +2433,7 @@
     },
     {
       "id": 29,
-      "rank": 109,
+      "rank": 114,
       "runDate": "2026-05-08",
       "title": "Live Probiotic Kombucha Tap Systems — Zero-Waste F&B",
       "vertical": "Sustainability",
@@ -2300,7 +2450,7 @@
     },
     {
       "id": 30,
-      "rank": 110,
+      "rank": 115,
       "runDate": "2026-05-08",
       "title": "Haptic Meditation Wearables — Spa Retail Upsell",
       "vertical": "Spa & Wellness",
@@ -2317,7 +2467,7 @@
     },
     {
       "id": 21,
-      "rank": 111,
+      "rank": 116,
       "runDate": "2026-05-08",
       "title": "AI Sleep Optimization Systems — In-Room Circadian Tech",
       "vertical": "Hotel Ops",
@@ -2334,7 +2484,7 @@
     },
     {
       "id": 22,
-      "rank": 112,
+      "rank": 117,
       "runDate": "2026-05-08",
       "title": "Fermented Plant Protein Beverages — Premium Wellness RTD",
       "vertical": "F&B",
@@ -2351,7 +2501,7 @@
     },
     {
       "id": 23,
-      "rank": 113,
+      "rank": 118,
       "runDate": "2026-05-08",
       "title": "Holographic Entertainment Kiosks — Lobby & MICE Interactive",
       "vertical": "Entertainment/MICE",
@@ -2368,7 +2518,7 @@
     },
     {
       "id": 24,
-      "rank": 114,
+      "rank": 119,
       "runDate": "2026-05-08",
       "title": "Upcycled Oyster Shell Luxury Goods — Sustainable Retail Collections",
       "vertical": "Retail",
@@ -2385,7 +2535,7 @@
     },
     {
       "id": 25,
-      "rank": 115,
+      "rank": 120,
       "runDate": "2026-05-08",
       "title": "Personalized Scent DNA Systems — VIP Suite Aromatherapy",
       "vertical": "Spa & Wellness",
@@ -2402,7 +2552,7 @@
     },
     {
       "id": 16,
-      "rank": 116,
+      "rank": 121,
       "runDate": "2026-05-08",
       "title": "AI Sleep Optimization Systems — In-Room Circadian Tech",
       "vertical": "Hotel Ops",
@@ -2419,7 +2569,7 @@
     },
     {
       "id": 17,
-      "rank": 117,
+      "rank": 122,
       "runDate": "2026-05-08",
       "title": "Fermented Tea Cocktail Bases — Dark Tea Mixology Programme",
       "vertical": "F&B",
@@ -2436,7 +2586,7 @@
     },
     {
       "id": 18,
-      "rank": 118,
+      "rank": 123,
       "runDate": "2026-05-08",
       "title": "Meridian Massage Wearables — TCM-Guided Recovery Tech",
       "vertical": "Spa & Wellness",
@@ -2453,7 +2603,7 @@
     },
     {
       "id": 19,
-      "rank": 119,
+      "rank": 124,
       "runDate": "2026-05-08",
       "title": "Intangible Heritage Fragrance Library — Craft Incense & Scent Branding",
       "vertical": "Retail",
@@ -2470,7 +2620,7 @@
     },
     {
       "id": 20,
-      "rank": 120,
+      "rank": 125,
       "runDate": "2026-05-08",
       "title": "Functional Fungi Snack Bars — Cordyceps & Reishi F&B Integration",
       "vertical": "F&B",
@@ -2487,7 +2637,7 @@
     },
     {
       "id": 11,
-      "rank": 121,
+      "rank": 126,
       "runDate": "2026-05-08",
       "title": "Circadian Smart Lighting Systems — Guest Room Sleep Optimization",
       "vertical": "Hotel Ops",
@@ -2504,7 +2654,7 @@
     },
     {
       "id": 12,
-      "rank": 122,
+      "rank": 127,
       "runDate": "2026-05-08",
       "title": "Immersive Tea Ceremony Pods — Private F&B Experience Modules",
       "vertical": "F&B",
@@ -2521,7 +2671,7 @@
     },
     {
       "id": 13,
-      "rank": 123,
+      "rank": 128,
       "runDate": "2026-05-08",
       "title": "Plasma Air Purification Tiles — Invisible Wellness Infrastructure",
       "vertical": "Sustainability",
@@ -2538,7 +2688,7 @@
     },
     {
       "id": 14,
-      "rank": 124,
+      "rank": 129,
       "runDate": "2026-05-08",
       "title": "Longevity Collagen Dessert Bar — Functional F&B Retail Hybrid",
       "vertical": "Retail",
@@ -2555,7 +2705,7 @@
     },
     {
       "id": 15,
-      "rank": 125,
+      "rank": 130,
       "runDate": "2026-05-08",
       "title": "Gamified Wellness Mirrors — In-Room Fitness Entertainment",
       "vertical": "Entertainment/MICE",
@@ -2572,7 +2722,7 @@
     },
     {
       "id": 1,
-      "rank": 126,
+      "rank": 131,
       "runDate": "2026-05-08",
       "title": "TCM-Infused Functional Herbal Teas — Luxury F&B Minibar & In-Room Experience",
       "vertical": "F&B",
@@ -2589,7 +2739,7 @@
     },
     {
       "id": 2,
-      "rank": 127,
+      "rank": 132,
       "runDate": "2026-05-08",
       "title": "Baijiu-Inspired Zero-Alcohol Spirits Programme — VIP Dining & Gift",
       "vertical": "F&B",
@@ -2606,7 +2756,7 @@
     },
     {
       "id": 3,
-      "rank": 128,
+      "rank": 133,
       "runDate": "2026-05-08",
       "title": "Smart Minibar IoT Inventory System — Hotel Ops Cost Reduction",
       "vertical": "Hotel Ops",
@@ -2623,7 +2773,7 @@
     },
     {
       "id": 4,
-      "rank": 129,
+      "rank": 134,
       "runDate": "2026-05-08",
       "title": "Forest Bathing Spa Ritual Kit (Shinrin-yoku) — New Treatment Menu Item",
       "vertical": "Spa & Wellness",
@@ -2640,7 +2790,7 @@
     },
     {
       "id": 5,
-      "rank": 130,
+      "rank": 135,
       "runDate": "2026-05-08",
       "title": "Heritage Silk & Lacquerware Luxury Gift Sets — Resort Retail & Casino Gifting",
       "vertical": "Retail",
@@ -2657,7 +2807,7 @@
     },
     {
       "id": 6,
-      "rank": 131,
+      "rank": 136,
       "runDate": "2026-05-07",
       "title": "Copper-Ion & Silver-Ion Antimicrobial Linen Programme — Eco Hygiene Upgrade",
       "vertical": "Hotel Ops",
@@ -2674,7 +2824,7 @@
     },
     {
       "id": 7,
-      "rank": 132,
+      "rank": 137,
       "runDate": "2026-05-07",
       "title": "Luxury Adaptogen Wellness Drinks — Zero-Alcohol VIP Lounge & Spa Menu",
       "vertical": "Spa & Wellness",
@@ -2691,7 +2841,7 @@
     },
     {
       "id": 8,
-      "rank": 133,
+      "rank": 138,
       "runDate": "2026-05-07",
       "title": "Microbiome & Exosome Spa Treatment Consumables — Next-Gen Facial Programme",
       "vertical": "Spa & Wellness",
@@ -2708,7 +2858,7 @@
     },
     {
       "id": 9,
-      "rank": 134,
+      "rank": 139,
       "runDate": "2026-05-07",
       "title": "Sustainable Biodegradable Amenity Sets — ESG Compliance for Macau IRs",
       "vertical": "Hotel Ops",
@@ -2725,7 +2875,7 @@
     },
     {
       "id": 10,
-      "rank": 135,
+      "rank": 140,
       "runDate": "2026-05-07",
       "title": "Carbon-Credit Linked Amenity Programme — ESG Narrative Layer",
       "vertical": "Hotel Ops",
